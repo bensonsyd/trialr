@@ -28,7 +28,7 @@ data {
   // Hyperparameters
   real alpha_mean;
   real<lower=0> alpha_sd;
-  real beta_mean;
+  real<lower=0> beta_mean;
   real<lower=0> beta_sd;
   real gamma_mean;
   real<lower=0> gamma_sd;
